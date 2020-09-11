@@ -1,0 +1,768 @@
+@import "fonts.css";
+
+/* Стили для хедера под десктопы*/
+
+.header__tel_fonts {
+	font-family: 'Open Sans Bold', arial;
+	font-size: 15px;
+}
+
+.header__work-time_fonts {
+	font-family: 'Open Sans', arial;
+	font-size: 9px;
+}
+
+
+/* Стили для меню навигации под десктопы*/
+.header__nav-link_fonts {
+  font-family: 'Open Sans Semibold', arial;
+  font-weight: 500;
+  color: #000000;
+}
+
+.header__nav__li_hover:hover {
+	background-color: #84c604;
+	color: #ffffff;
+}
+
+/*Стили для блока happy-hours под десктопы*/
+
+.header__happy-hours__container_position {
+	height: 625px;
+	position: relative;
+	padding-top: 178px;
+}
+
+
+.happy-hours {
+	background-image: url(../images/sushi.png);
+	background-repeat: no-repeat;
+}
+
+
+.happy-hours__col-md_fonts {
+  font-family: "Lemon Tuesday";
+  font-size: 120px;
+  line-height: 0.9em;
+  color: rgb(132, 198, 4);
+}
+
+.happy-hours__time_fonts {
+  font-size: 20px;
+  font-family: 'Open Sans Italic', arial;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+.happy-hours__button_background {
+	background-color: #fd4f10;
+	border-color: #fd4f10;
+}
+
+.happy-hours__discount {
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	background-color: #d92024;
+	padding-top: 40px;
+	padding-left: 10px;
+	font-family: 'Open Sans Bold', arial;
+	font-size: 28px;
+	color: #ffffff;
+}
+
+/*Стили для карточного стола под десктоп*/
+
+/*Стили для карт */
+
+.card {
+	border-radius: 1rem;
+	box-shadow: 0 0 10px rgba(0,0,0,0.20);
+	border:none;
+}
+
+.cart_position {
+	 position: relative;
+}
+
+.cart__cart-name {
+	font-family: 'Open Sans Bold', arial;
+	/*font-size: 14px;*/
+}
+
+.cart__cart-description {
+	font-family:  'Open Sans Light', arial;
+	font-size: 12px;
+}
+
+.cart__cart-price {
+	font-family: 'Roboto Slab Bold', arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.cart__cart-button{
+	margin-top: 30px;
+	background-color: #fd4f10;
+	border-color: #fd4f10;
+	width: 100%;
+}
+
+.cart__button_inactive {
+	pointer-events: none;
+	margin-top: 30px;
+	background-color: #2dac18;
+	border-color: #2dac18;
+	width: 100%;
+}
+
+
+
+/*Стили для лейбла*/
+
+.cart__label_position {
+	width: 70px;
+	height: 70px;
+	z-index: 1;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 5%;
+}
+
+.cart__label-fire_position{
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+	position: absolute;
+	margin-left: 75%;
+	margin-top: 5%;
+}
+
+/* Стили для статьи о компании для десктопов */
+
+.block-for-large-screens__about-company__head_fonts,
+.sets_fonts {
+	font-family: "Lemon Tuesday";
+	font-size: 56px;
+	color: #32505a;
+}
+
+.block-for-large-screens__about-company__head_margin {
+	margin-bottom: 50px;
+}
+.block-for-large-screens__about-company__head-4_fonts {
+  font-size: 24px;
+  font-family: 'OpenSans Bold', arial;
+  color: rgb(50, 80, 90);
+  font-weight: bold;
+}
+
+.block-for-large-screens__about-company__head-4_margin {
+	margin-bottom: 40px;
+}
+
+.block-for-large-screens__about-company p {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(77, 77, 77);
+  line-height: 1.429;
+  text-align: left;
+}
+
+.block-for-large-screens__about-company {
+	margin-bottom: 145px;
+}
+
+
+/*Стили для футера*/
+
+.footer{
+  background-color: #1a2d34;
+}
+
+.footer__product_categories_font {
+	font-family: 'Open Sans', arial;
+	color: #ffffff;
+}
+
+.footer__product-list_fonts {
+	font-family: 'Open Sans', arial;
+	font-size: 0.8em;
+  color: #6b96a5;
+}
+
+.swiper-container {
+	width:100%;
+	height: 615px;
+}
+
+ /*Стили для слайдеров*/
+
+ /* Стили для слайдера товаров  для средних экранов  и больших экранов */
+
+.block-for-medium-screens .swiper-container,
+.block-for-large-screens .swiper-container {
+	height: 500px;
+}
+
+.block-for-medium-screens .swiper-container .swiper-pagination {
+	top: 88%;
+}
+
+.block-for-large-screens .swiper-container .swiper-pagination {
+ top: 95%;
+}
+
+.block-for-medium-screens .swiper-container .swiper-button-next,
+.block-for-medium-screens .swiper-container .swiper-button-prev {
+	top: 91%;
+}
+
+.block-for-large-screens .swiper-container .swiper-button-next,
+.block-for-large-screens .swiper-container .swiper-button-prev {
+ top: 98%;
+}
+
+
+.block-for-medium-screens .swiper-container .swiper-pagination .swiper-pagination-bullet,
+.block-for-large-screens .swiper-container .swiper-pagination .swiper-pagination-bullet {
+	margin-right: 15px;
+}
+
+.block-for-medium-screens .swiper-container .swiper-button-next {
+	margin-right: 30%;
+	z-index: 15;
+}
+
+.block-for-medium-screens .swiper-container .swiper-button-prev {
+	margin-left: 30%;
+	z-index: 15;
+}
+
+.block-for-large-screens .swiper-button-next {
+	margin-right: 35%;
+	z-index: 15;
+}
+
+.block-for-large-screens .swiper-button-prev {
+	margin-left: 35%;
+	z-index: 15;
+}
+
+.swiper-button-next::after {
+	content: '';
+	background-image: url(../images/right-arrow.png);
+	height: 20px;
+	width: 28px;
+}
+
+
+.swiper-button-prev::after {
+	content: '';
+	background-image: url(../images/left-arrow.png);
+	height: 20px;
+	width: 28px;
+}
+
+/* Стили для слайдера с роллами для средних экранов */
+
+
+
+.block-for-medium-screens #blockForMediumScreensRollsSliderPagination {
+	top: 95%;
+}
+
+.block-for-medium-screens #blockForMediumScreensRollsSliderButtonNext {
+	top: 98%;
+}
+
+.block-for-medium-screens #blockForMediumScreensRollsSliderButtonPrev {
+  top: 98%;
+}
+
+/* Стили для слайдера с роллами для больших экранов */
+
+.block-for-large-screens #rollsSlider {
+	height: 570px;
+}
+.block-for-large-screens #rollsSliderPagination {
+	top: 90%;
+}
+
+.block-for-large-screens #rollsSliderButtonNext {
+	top: 92.5%
+}
+
+.block-for-large-screens #rollsSliderButtonPrev {
+	top: 92.5%
+}
+
+
+
+ /*Стили для слайлера с счатливыми часами*/
+
+ .happy-hours__swiper-pagination {
+ 	top: 90%;
+ }
+
+ .happy-hours__swiper-button-next {
+ 	top:50%;
+ 	margin-right: 10%;
+ 	width: 53px;
+ 	height: 53px;
+ }
+
+ .happy-hours__swiper-button-prev {
+ 	top: 50%;
+ 	margin-left: 10%;
+ 	width: 53px;
+ 	height: 53px;
+ }
+
+ .happy-hours__swiper-button-next::after {
+ 	content: '';
+ 	background-image: url(../images/happy-hours-button-next.png);
+ 	width: 53px;
+ 	height: 53px;
+ }
+
+ .happy-hours__swiper-button-prev::after {
+ 	content: '';
+ 	background-image: url(../images/happy-hours-button-prev.png);
+ 	width: 53px;
+ 	height: 53px;
+ }
+
+.swiper-pagination-bullet-active {
+ 	background-color: #1fba0a;
+}
+
+.happy-hours__swiper-pagination > .swiper-pagination-bullet {
+ 	width: 15px;
+ 	height: 15px;
+  border: 1px solid #c2c2c2;
+}
+
+ /*Стили для табов для маленьких средних и больших экранов*/
+
+/* Базовый контейнер табов */
+.block-for-small-medium-large-screens__tabs {
+  background-image: url(../images/tabs-backround-image.png);
+  padding: 0px;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+/* стили секций с содержанием */
+.block-for-small-medium-large-screens__tabs section {
+  display: none;
+  padding: 15px;
+}
+
+.block-for-small-medium-large-screens__tabs input {
+  display: none;
+}
+/* стили вкладок (табов) */
+.block-for-small-medium-large-screens__tabs label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  font-size: 18px;
+  font-family: 'OpenSans Semibold', arial;
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+  margin-right: 40px;
+
+}
+
+/* шрифт-иконки от Font Awesome в формате Unicode */
+/*.tabs label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.tabs label[for*="1"]:before {
+  content: "\f19a";
+}
+.tabs label[for*="2"]:before {
+  content: "\f17a";
+}
+.tabs label[for*="3"]:before {
+  content: "\f13b";
+}
+.tabs label[for*="4"]:before {
+  content: "\f13c";
+}*/
+/* изменения стиля заголовков вкладок при наведении */
+
+/* стили для активной вкладки */
+.block-for-small-medium-large-screens__tabs input:checked + label {
+  color: #fd4f10;
+}
+/* активация секций с помощью переключателя :checked */
+#tabNewForSmall:checked ~ #newProductForSmallScreens,
+#tabStocksForSmall:checked ~ #stockItemForSmallScreens,
+#tabNewForMedium:checked ~ #newProductForMediumScreens,
+#tabStocksForMedium:checked ~ #stockItemForMediumScreens,
+#tabNewForLarge:checked ~ #newProductForLargeScreens,
+#tabStocksForLarge:checked ~ #stockItemForLargeScreens {
+  display: block;
+}
+
+
+/* медиа запросы для различных типов носителей */
+/*@media screen and (max-width: 680px) {
+  .tabs label {
+    font-size: 0;
+  }
+
+  .tabs label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tabs label {
+    padding: 15px;
+  }
+}*/
+
+
+ /*Стили для средних и маленьких экранов*/
+
+/*Стили для меню под средние экраны*/
+
+.menu-for-middle-screens__burger_position {
+	padding-top: 19.5px;
+}
+
+.menu-for-middle-screens__personal-area_position {
+	padding-top: 19.5px;
+}
+
+/*Стили для меню под маленькие  экраны*/
+
+.menu-for-mall-screens__burger_position {
+	padding-top: 10px;
+}
+
+.menu-for-mall-screens__personal-area_position {
+padding-top: 10px;
+}
+
+/*Стили для блока с счатливыми часами для средних экранов */
+
+.menu-for-middle-screens .swiper-container {
+	height: 420px;
+}
+.middle-screens-happy-hours {
+  background-image: url(../images/mobile-sushi.png);
+	background-repeat: no-repeat;
+	height: 420px;
+	padding-top: 70px;
+}
+
+.middle-screens-happy-hours > .row {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.middle-screens-happy-hours__fonts {
+  font-family: "Lemon Tuesday";
+  font-size: 61px;
+  line-height: 0.9em;
+  color: rgb(132, 198, 4);
+}
+
+.middle-screens-happy-hours__discount {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background-color: #d92024;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-family: 'Open Sans Bold', arial;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.middle-screens-happy-hours__time_fonts {
+  font-size: 20px;
+  font-family: 'Open Sans Italic', arial;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+.middle-screens-happy-hours__button_background {
+	background-color: #fd4f10;
+	border-color: #fd4f10;
+}
+
+/*Стили для блока с счатливыми часами для маленьеих экранов */
+
+
+
+.small-screens-happy-hours {
+	background-image: url(../images/small-screen-happy-hours.png);
+	background-repeat: no-repeat;
+	height: 240px;
+	padding-top: 30px;
+}
+
+.small-screens-happy-hours__fonts {
+  font-family: "Lemon Tuesday";
+  font-size: 45px;
+  line-height: 0.9em;
+  color: rgb(132, 198, 4);
+}
+
+.small-screens-happy-hours__discount {
+  height: 67px;
+	width: 67px;
+	border-radius: 100%;
+	background-color: #d92024;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-family: 'Open Sans Bold', arial;
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: 50px;
+	margin-left: 50%;
+}
+
+.small-screens-happy-hours__time_fonts {
+  font-size: 13px;
+  font-family: 'Open Sans Italic', arial;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+/*Стили для слайдера с счатливыми часами для средних экранов*/
+
+.menu-for-middle-screens .swiper-container {
+	height: 450px;
+}
+
+.middle-screens-happy-hours__swiper-pagination_position {
+  top: 80%;
+}
+
+.middle-screens-happy-hours__swiper-pagination-bullet-active {
+ 	background-color: #1fba0a;
+ }
+
+ .middle-screens-happy-hours__swiper-pagination > .swiper-pagination-bullet {
+ 	width: 15px;
+ 	height: 15px;
+  border: 1px solid #c2c2c2;
+ }
+
+/*Стили для слайдера с счатливыми часами для  маленьких экранов*/
+
+.menu-for-mall-screens .swiper-container {
+	height: 300px;
+}
+
+.happy-hours-slider-for-small-screens-swiper-pagination {
+  top: 80%;
+}
+
+.block-for-small-screens .swiper-container {
+	height: 470px;
+}
+
+
+
+/*Стили для заголовков товаров для маленьких экранов*/
+
+.block-for-small-screens__sets_fonts {
+  font-family: "Lemon Tuesday";
+ 	font-size: 40px;
+  color: #32505a;
+}
+
+.block-for-small-screens__rolls_position .col,
+.block-for-small-screens__pizza_position .col {
+	padding: 0px;
+}
+
+/* Стили для заголовков товарных выдач */
+
+.pizza-slider-header,
+.sets-slider-header,
+.rolls-slider-header {
+	margin-top: 35px;
+}
+
+/*Стили для карточек товаров*/
+
+.block-for-small-screens .swiper-container .swiper-wrapper .swiper-slide .card {
+	width: 228px;
+	margin: 0px auto;
+}
+
+/*Стили для блока о компании для маленьких экранов*/
+
+.block-for-small-screens__about-company_margin {
+	margin-bottom: 75px;
+}
+
+.block-for-small-screens__about-company__head_margin {
+  margin-bottom: 50px;
+}
+
+.block-for-small-screens__about-company__head_fonts {
+	font-family: "Lemon Tuesday";
+ 	font-size: 40px;
+  color: #32505a;
+}
+
+.block-for-small-screens__about-company__head-4_fonts {
+	font-size: 20px;
+  font-family: 'Open Sans Bold', arial;
+  color: rgb(50, 80, 90);
+  font-weight: bold;
+  text-align: left;
+}
+
+.block-for-small-screens__about-company__head-4_margin {
+	margin-bottom: 37px;
+}
+
+.block-for-small-screens__about-company__hidden-text {
+	display: none;
+	height: 0px;
+	opacity: 0;
+	z-index: 0;
+}
+
+.block-for-small-screens__about-company p {
+  font-size: 14px;
+  font-family: 'OpenSans Regular', arial;
+  color: rgb(77, 77, 77);
+  line-height: 1.429;
+}
+
+/* Стили для статьи о компании для средних экранов */
+
+.block-for-medium-screens__about-company {
+  margin-bottom: 53px;
+}
+
+.block-for-medium-screens__about-company__head {
+	margin-bottom: 53px;
+}
+
+.block-for-medium-screens__about-company__head-two {
+	margin-bottom: 53px;
+}
+
+.block-for-medium-screens__about-company__head_fonts {
+  font-size: 48px;
+  font-family: "Lemon Tuesday";
+  color: rgb(50, 80, 90);
+}
+
+.block-for-medium-screens__about-company__head-two_fonts {
+  font-size: 22px;
+  font-family: 'OpenSans Bold', arial;
+  color: rgb(50, 80, 90);
+  font-weight: bold;
+}
+
+.block-for-medium-screens__about-company p{
+  font-size: 14px;
+  font-family: 'OpenSans', arial;
+  color: rgb(77, 77, 77);
+  line-height: 1.429;
+}
+
+/*Стили для спойлера*/
+
+footer  {
+	background-color: #1a2d34;
+}
+
+.spoiler-content{
+	display:none;  /**скрываем блок контента спойлера**/
+	padding:15px 20px; /**добавляем внутренний отступ**/
+}
+
+.spoiler-block {
+	border-bottom: 1px solid #20353d;
+}
+.spoiler-title {
+	background-color: #1a2d34;
+	display:block; /**делаем ссылку на всю ширину**/
+	padding: 20px;
+}
+
+.spoiler-content {
+	background-color: #20353d;
+}
+
+.spoiler-title {
+  font-size: 16px;
+  font-family: 'Open Sans Semibold', arial;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.spoiler-block > .spoiler-title {
+  text-decoration: none;
+}
+
+.logo {
+	padding-top: 42.5px;
+	height: 100%;
+	background-color: #1a2d34;
+  font-size: 12px;
+  font-family: 'Open Sans Regular', arial;
+  color: rgb(107, 150, 165);
+}
+
+.logo .col-12 {
+	margin-bottom: 30px;
+}
+
+.list-unstyled > li {
+	margin-bottom: 20px;
+}
+
+
+.arrow {
+	transform: rotate(180deg);
+}
+
+
+
+@media (min-width: 766px) and (max-width: 2500px) {
+	.menu-for-middle-screens,
+	.menu-for-mall-screens,
+	.spoilers-for-small-and-medium-screens,
+	.block-for-small-screens,
+	.block-for-medium-screens {
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 765px) {
+	.menu-for-large-screens,
+	.menu-for-mall-screens,
+	.block-for-large-screens,
+	.footer-for-large-screens,
+	.block-for-small-screens {
+		display: none;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+	.menu-for-large-screens,
+	.menu-for-middle-screens,
+	.block-for-large-screens,
+	.footer-for-large-screens,
+	.block-for-medium-screens {
+		display: none;
+	}
+}

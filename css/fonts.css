@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Lemon Tuesday';
+  src: local('Lemon Tuesday'), local('LemonTuesday'), url('../fonts/Lemontuesday.woff2') format('woff2'), url('../fonts/Lemontuesday.woff') format('woff'), url('Lemontuesday.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}  
+
+@font-face {
+	font-family: "Open Sans Bold";  
+	src: url("../fonts/Open Sans Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+ }
+
+ @font-face {
+ 	font-family: "Open Sans";
+ 	src: url("../fonts/Open Sans.ttf") format("truetype");
+ 	font-style: normal; 
+	font-weight: normal;
+ }
+
+ @font-face {
+ 	font-family: "Opens Sans SemiBold";
+ 	src: url("../fonts/Open Sans SemiBold") format("truetype");
+ 	font-style: normal; 
+	font-weight: normal;
+ }
+
+ @font-face {
+ 	font-family: "Open Sans Italic";
+ 	src: url("../fonts/Open Sans Italic") format("truetype");
+ 	font-style: normal; 
+	font-weight: normal;
+ }
+
+ @font-face {
+ 	font-family: "Open Sans Ligth";
+ 	src: url("../fonts/Open Sans Ligth") format("truetype");
+ 	font-style: normal; 
+	font-weight: normal;
+ }
+
+ @font-face {
+ 	font-family: "Roboto Slab Bold";
+ 	src: url("../fonts/Roboto Slab Bold") format("truetype");
+ 	font-style: normal;
+	font-weight: normal;
+ }
